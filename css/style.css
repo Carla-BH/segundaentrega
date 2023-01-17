@@ -275,11 +275,14 @@ footer{
 
 @media (max-width: 320px){
 .nav-inicio{
+    flex-direction: column;
     align-items: center;
-    font-size: 10px;  
     }   
-    
+.nav-inicio li a{
+    font-size: 15px;
+}    
 } 
+
 
 
 /*-------------------------------INICIO CONTACTO--------------------*/
