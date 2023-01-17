@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------ ACA COMIENZA EL HEADER-------------------------------*/
+
+header{
+    background-color: rgb(53, 114, 53);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+.encabezado{
+    align-items: center;
+}
+.logo-p{
+        height: 50px;
+        margin-left: 20px;
+}
+h1{
+    font-weight: 800;
+    background-position: left;
+}
+.nav-inicio{
+    justify-content: right;
+    margin-right: 25px;
+    
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+.nav-inicio li{
+    list-style: none;    
+}
+li {
+    display: inline;
+}
+.nav-palabras{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+    color:azure;
+}
+/*------------------------ ACA TERMINA EL HEADER-------------------------------*/
+
+/*------------------------ ACA COMIENZA EL FOOTER-------------------------------*/
+
+footer{
+    background-color: rgb(53, 114, 53);    
+    height: 60px;
+    width: 100%;
+}
+
+.caja-footer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 30px;
+    bottom: 0;
+}
+
+.footer-ig {
+    height: 41px;
+}
+
+.footer-fb {
+    height: 60px;
+}
+
+
+/*------------------------ ACA TERMINA EL FOOTER-------------------------------*/
+
+/*---------------------- ACA COMIENZA EL MAIN INDEX-------------------------------*/
+
+.caja-portada{
+    background-color: rgb(241, 205, 150);
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;  
+    color: rgb(8, 8, 8);
+    padding: 10px;
+}
+
+.titulo-principal{
+    text-decoration: underline;
+}
+
+.titulo-inicio{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-inicio{
+    display: flex;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.caja-texto{
+    padding: 20px;
+}
+
+.section-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(241, 205, 150);
+}
+
+.p-main{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+.foto-main{
+    display: flex;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+
+
+
+
+
+
+/*---------------------- ACA TERMINA EL MAIN INDEX-------------------------------*/
+/*------------------------------INCIO MISION--------------------------------------------*/
+
+
+.caja-mainmision{
+    background-color: rgb(241, 205, 150);
+}
+
+.titulo-mision{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+
+}
+
+.mision-texto{
+    padding: 10px;
+}
+
+.foto-manual{
+    display: block;
+}
+
+
+.p-reco{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: auto;
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 2px;
+}
+
+.caja.recomendados{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.foto-recomendados{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    justify-content: space-around;
+}
+
+
+/*-----------------------------------inicio tienda--------------------------*/
+
+.caja-main{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(241, 205, 150);
+}
+
+.foto-tienda{
+    display: flex;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.section-tienda{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.p-tienda{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: underline;
+    }
+
+
+.caja-foto{
+    padding: 20px 30px;
+}
+
+.section-carrito{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: 30px;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: px;
+}
+/*--------------------------Inicio Galeria---------------------------------*/
+
+.container-galeria{
+    background-color: rgb(241, 205, 150);
+}
+
+.titulo-galeria{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.fotos-galeria{
+    padding: 20px;
+    height: auto;
+    width: 20%;
+    border-radius: 50px;
+    box-shadow: 10;
+}
+
+
+.detalle{
+    padding: 30px;
+}
+
+/*-------------------------------INICIO CONTACTO--------------------*/
+
+.caja-contacto{
+    background-color: rgb(241, 205, 150);
+    height: 500px;
+}
+
+.titulo-contacto{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.saludo{
+    width: 100%;
+    text-align: center;
+    padding: 75px;
+}
