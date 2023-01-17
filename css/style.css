@@ -265,6 +265,23 @@ footer{
     padding: 30px;
 }
 
+.grid{
+    display: grid;
+    width: 100%;
+    height: 90%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+@media (max-width: 320px){
+.nav-inicio{
+    align-items: center;
+    font-size: 10px;  
+    }   
+    
+} 
+
+
 /*-------------------------------INICIO CONTACTO--------------------*/
 
 .caja-contacto{
